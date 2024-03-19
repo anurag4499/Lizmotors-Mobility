@@ -1,0 +1,151 @@
+.header{
+  height: 100vh;
+
+}
+#youtube-video {
+  pointer-events: none; /* Disable pointer events on the iframe */
+}
+
+
+
+
+/* industry */
+.card-ind{
+  width: 15.85rem !important;
+}
+.industry-card{
+  width: 15rem;
+  height: 15rem;
+
+
+}
+.industry-icon{
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: -2rem;
+  left: 0rem;
+  right: 0;
+}
+.industry-icon img{
+  height: 3rem;
+}
+.industry-card img{
+min-height:100% ;
+width: 100%;
+  object-fit: cover !important;
+}
+.count-icon img{
+  height: 8rem;
+}
+/* our client */
+.client-logo img{
+  width: auto;
+  max-height: 100%;
+}
+.client-logo{
+  height: 6rem !important;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* industry */
+.industry2-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  transition: 0.5s ease-in-out;
+}
+.industry2-card{
+  /* width: auto !important; */
+  position: relative;
+  overflow: hidden;
+}
+.industry2-card:hover .industry2-img{
+  transform: scale(1.1);
+}
+.industry2-content{
+  background:linear-gradient(rgba(255, 255, 255, 0),rgba(47, 47, 47, 0.67));
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.industry2-content-finance{
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.edu-sec{
+  height: 10rem !important;
+  position: relative;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+  .header{
+    height: auto;
+    margin-top: 0;
+    width: 100% !important;
+  }
+  
+
+/*  */
+
+/* service */
+.service-img img{
+  width: 100%;
+  height: 15rem;
+  object-fit: contain;
+}
+.service-img{
+  height: 16rem;
+}
+.count{
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.count-icon img{
+  height: 5rem;
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .count{
+    background:linear-gradient(#3419abd6,#3419abdf), ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .header{
+    height: 100vh;
+  }
+  .service-img img{
+    max-height: 18rem!important;
+    max-width: 20rem !important;
+    z-index: 10;
+  }
+  .service-img img{
+    width: 100%;
+    height: 13rem;
+    object-fit: contain;
+  }
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

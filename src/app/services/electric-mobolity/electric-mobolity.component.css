@@ -1,0 +1,73 @@
+.header{
+    height: 100vh;
+  }
+  .technology-div{
+    height: 8rem;
+    width: 8rem;
+  }
+  .technology-div svg{
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .app-process img{
+    height: 3rem;
+    padding-bottom: 10px;
+  
+  }
+  .os-adjesstment{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: 1rem;
+  }
+  
+  
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  video::-webkit-media-controls {
+    display: none !important;
+  }
+  
+  video::-webkit-media-controls-enclosure {
+    display: none !important;
+  }
+  
+  video::-webkit-media-controls-overlay-play-button {
+    display: none !important;
+  }
+  
+  video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+  }
+  
+  video[controls] {
+    display: none !important;
+  }
+  
+  .web-dev {
+    min-width: 18rem !important;
+    padding: 2.5rem;
+    cursor: grab;
+  }
+  .web-dev h3,.web-dev p{white-space: pre-wrap;}
+  .technology {
+    width: 7rem;
+    height: 7rem;
+    /* background: rgb(121, 64, 64); */
+  }
+  .web-dev ::ng-deep drag-scroll{
+    height:25rem;
+  }
+  
+  @media only screen and (max-width: 994px) and (min-width:768px) {
+   
+    .app-process img{
+      height: 2.4rem;
+      padding-bottom: 8px;
+    }
+   
+  }

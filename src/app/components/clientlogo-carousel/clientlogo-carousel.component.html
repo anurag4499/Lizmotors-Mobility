@@ -1,0 +1,11 @@
+<div class="slider my-5">
+  <div class="slide-track">
+    <div class="slide" *ngFor="let items of clientLogo">
+      <img src="{{items.img}}" alt="">
+    </div>
+    <!-- same 9 slides doubled (duplicate) -->
+    <div class="slide" *ngFor="let items of clientLogo">
+      <img src="{{items.img}}" alt="">
+    </div>
+  </div>
+</div>

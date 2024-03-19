@@ -1,0 +1,178 @@
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white position-fixed w-100">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+          <div>
+              <a href="index.html">
+                  <img src="../../assets/image/logo.png" alt="" style="width: 5rem;">
+              </a>
+          </div>
+          <div class="d-none d-lg-block pe-5 me-5" style="">
+          <ul class="navbar nav border-0 shadow-0 ">
+              <li class="nav-item">
+                  <a
+                   class="nav-link text-dark links" routerLink="//" >Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <!-- menu -->
+                <div class="dropdown-menu mt-0 border-0" aria-labelledby="navbarDropdown">
+                <div class="container row p-3 ">
+                  <div class="col-3  border-end p-3">
+                    <a routerLink="/services/electric-mobolity" class="page-link dd-link">
+                    <h5 class="dropd-link">Electric Mobility</h5>
+                    <ul class="list-group list-group-flush mt-2 dd-list">
+                      <li class="list-group-item text-secondary">emergency</li>
+                      <li class="list-group-item text-secondary">motorcycles</li>
+                     
+                    </ul></a>
+                  </div>
+                  <div class="col-3  border-end p-3">
+                    <a routerLink="/services/electric-mobolity" class="page-link dd-link">
+                      <h5 class="dropd-link">Vehicle Gateway</h5>
+                      <ul class="list-group list-group-flush mt-2 dd-list">
+                        <li class="list-group-item text-secondary">ADAS Data</li>
+                            <li class="list-group-item text-secondary">Vehicle Telematics</li>
+                            
+                      </ul></a>
+                  </div>
+                  <div class="col-3   p-3">
+                    <a routerLink="/services/electric-mobolity" class="page-link dd-link">
+                      <h5 class="dropd-link">Personal Safety</h5>
+                      <ul class="list-group list-group-flush mt-2 dd-list">
+                        <li class="list-group-item text-secondary">AI-powered </li>
+                            <li class="list-group-item text-secondary">cloud-connected device</li>
+                          
+                      </ul></a>
+                  </div>
+                  <div class="col-3 border-start px-3 d-flex flex-column justify-content-around">
+                    <div class=" dropd-links w-100">
+                    <a routerLink="/services/electric-mobolity">Trucking</a>
+                  </div>
+                  <div class=" dropd-links w-100">
+                    <a  routerLink="/services/electric-mobolity">Passenger Vehicles</a>
+                  </div>
+                    <div class=" dropd-links w-100">
+                    <a  routerLink="/services/electric-mobolity">Autonomous Vehicles</a>
+                  </div>
+              
+                </div>
+              </div>
+
+           
+                </div>
+                <!-- dropdown -->
+              </li>
+              
+              <li class="nav-item">
+                  <a class="nav-link text-dark links " routerLink="/contact">Contact</a>
+              </li>
+             
+              
+          </ul>
+      </div>
+      <!-- side bar -->
+      <a class="navbar-toggler d-lg-none  btn shadow-0 border-0 fs-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <i class="bi bi-list fs-4" style="color: #3419AB;"></i>
+      </a>
+      <div  class="offcanvas offcanvas-end text-bg-dark d-lg-none" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div  class="offcanvas-header bg-white ">
+          <a href="/">
+          <img src="../../assets/image/logo.png" alt=""  class="w-25"></a>
+          <a type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></a>
+        </div>
+        <div class="offcanvas-body bg-white border-top" >
+          <ul class="navbar-nav justify-content-center flex-grow-1 mx-auto">
+            <li class="nav-item  px-3 rounded">
+              <a class="nav-link active  sidebar-links fw-bold" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <li class="dropdown  rounded">
+              <a
+                class="ps-3 mt-1 fw-bold btn  dropdown-toggle w-100 text-start nav-link text-dark"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              <!-- data-bs-toggle="dropdown" aria-expanded="false" -->
+                Services
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <div class="row justify-content-center">
+                  <div class="col-10 border-bottom py-2">
+                    <a href="" class="d-flex nav-link side-navlink" routerLink="/services/electric-mobolity">
+                      <span class="material-symbols-outlined">
+                        phone_iphone
+                        </span>
+                    <p class="ms-2">Electric Mobility</p>
+                  </a>
+                  </div>
+                  <!-- ----- -->
+                  <div class="col-10 border-bottom py-2">
+                    <a href="" class="d-flex nav-link side-navlink" routerLink="/services/electric-mobolity" >
+                      <span class="material-symbols-outlined">
+                        language
+                        </span>
+                    <p class="ms-2">Vehicle Gateway</p>
+                  </a>
+                  </div>
+                  <!-- ----- -->
+                  <div class="col-10 border-bottom py-2">
+                    <a href="" class="d-flex nav-link side-navlink" routerLink="/services/electric-mobolity" >
+                      <span class="material-symbols-outlined">
+                        terminal
+                        </span>
+                    <p class="ms-2">Personal Safety</p>
+                  </a>
+                  </div>
+                  <!-- ----- -->
+                  <div class="col-10 border-bottom py-2">
+                    <a href="" class="d-flex nav-link side-navlink" routerLink="/services/electric-mobolity" >
+                      <span class="material-symbols-outlined">
+                        data_object
+                        </span>
+                    <p class="ms-2">Trucking</p>
+                  </a>
+                  </div>
+                  <!-- ----- -->
+                  <div class="col-10 border-bottom py-2">
+                    <a href="" class="d-flex nav-link side-navlink" routerLink="/services/electric-mobolity">
+                      <span class="material-symbols-outlined">
+                        cloud
+                        </span>
+                    <p class="ms-2">Passenger Vehicles</p>
+                  </a>
+                  </div>
+                  <!-- ----- -->
+                  <div class="col-10 border-bottom py-2">
+                    <a href="" class="d-flex nav-link side-navlink"  routerLink="/services/electric-mobolity" >
+                      <span class="material-symbols-outlined">
+                        campaign
+                        </span>
+                    <p class="ms-2">Autonomous Vehicles</p>
+                  </a>
+                  </div>
+                  <!-- ----- -->
+                
+                 
+
+
+                </div>
+              </div>
+            </li>
+
+           
+            <li class="nav-item  px-3 rounded mt-3">
+              <a class="nav-link active  sidebar-links fw-bold" aria-current="page" routerLink="/contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!-- side bar -->
+      </div>
+  </nav>

@@ -1,0 +1,25 @@
+.contact{
+  padding-top: 6rem;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+.bg-vid img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+}
+.main-container{
+  background-color: rgba(0, 0, 0, 0.034);
+  backdrop-filter: blur(5px);
+}
+@media only screen and (max-width: 600px) {
+  iframe{
+    height: 25rem !important;
+  }
+}
